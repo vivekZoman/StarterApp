@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content">
+
+    <ImageView
+            android:src="@drawable/food"
+            android:scaleType="centerInside"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"/>
+
+    <TextView
+            android:text="Restro Name"
+            android:layout_marginLeft="-150dp"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:id="@+id/name"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"/>
+    <TextView
+            android:text="Address"
+            android:layout_marginLeft="-150dp"
+            android:textSize="35dp"
+            android:layout_marginTop="80dp"
+            android:textStyle="italic"
+            android:id="@+id/address"
+            android:textColor="#000"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"/>
+    <TextView
+            android:text="Description"
+            android:layout_marginLeft="-150dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:id="@+id/description"
+            android:textColor="#000"
+            android:layout_marginTop="150dp"
+
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:gravity="center"/>
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    </FrameLayout>
+</FrameLayout>

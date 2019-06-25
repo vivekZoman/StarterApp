@@ -14,5 +14,14 @@ class BasicActivity : AppCompatActivity() {
          * Linking an xml layout to a view.
          */
         setContentView(R.layout.activity_basic)
+
+        //var button = find
+
+        val textV = findViewById<TextView>(R.id.text);
+        textV.setTextColor(2);
+
+        textV.text = "Oh... my app is working..."
+
+
     }
 }
